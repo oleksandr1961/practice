@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f5;
+    color: #0d1b2a;
+}
+
+header {
+    background: #0d1b2a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #0d1b2a;
+    color: white;
+}
+
+.hero .text-content {
+    max-width: 50%;
+}
+
+.hero img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    border-left: 4px solid #0d1b2a;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: flex;
+    gap: 20px;
+}
+
+.service-item {
+    background: #0d1b2a;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.portfolio-gallery img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.skill-bar {
+    background: #0d1b2a;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 50%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0d1b2a;
+}
+
+footer {
+    background: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
