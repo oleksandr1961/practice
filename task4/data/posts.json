@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "date": "2024-02-17",
+      "category": "Technology",
+      "content": "This is a short preview of the first blog post.",
+      "image": "images/post1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Second Blog Post",
+      "date": "2024-02-16",
+      "category": "Health",
+      "content": "Another short preview of a blog post.",
+      "image": "images/post2.jpg"
+    }
+  ]
+  

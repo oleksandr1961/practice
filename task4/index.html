@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <input type="text" id="search" placeholder="Search posts...">
+        <button id="sort-date">Sort by Date</button>
+        <button id="sort-name">Sort by Name</button>
+    </header>
+    <main>
+        <div id="category-container"></div>
+        <div id="post-container" class="post-grid"></div>
+        <div class="pagination">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

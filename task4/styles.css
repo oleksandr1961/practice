@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.post-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.post-content {
+    padding: 10px;
+}
+.category-filter {
+    margin: 5px;
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
